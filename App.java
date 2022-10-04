@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println("hellooo");
+        Cat pisika = new Cat("Pisika", 3, true);
+        Cat foxy = new Cat("Foxy", 6, false);
+        pisika.displayInfo();
+        foxy.displayInfo();
     }
 }
